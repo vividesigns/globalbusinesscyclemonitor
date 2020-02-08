@@ -1,0 +1,77 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+  font-size:20px;
+  font-family: Verdana;  /* https://css-tricks.com/almanac/properties/f/font/ */
+  font-variant: small-caps;
+  font-stretch: condensed;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  font-weight: bold;
+  text-decoration:none; /* can be underline,overline,etc */
+}
+
+li.active {
+    background-color:#7a7a7a;
+    font-variant: small-caps;
+    font-size:20px;
+    font-weight: bold;
+}
+
+li.active a{
+    color:white;
+    font-variant: small-caps
+    font-size:20px;
+    font-weight: bold;
+
+}
+li.dropdown {
+  display: inline-block;
+}
+/*This makes the fixed navigation bar stay in place */
+
+.menu-item-activated {
+ background-color:#f9f9f9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left; 
+  font-variant:none;
+  font-size:18px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

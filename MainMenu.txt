@@ -1,0 +1,25 @@
+<ul>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Global</a>
+      <div class="dropdown-content">
+      <a href="GlobalEconomicGrowthSnapshot.html">Economic Growth</a>
+      <a href="#">Inflation</a>
+      <a href="#">Monetary Policy</a>
+      <a href="#">Asset Performance</a>
+      <a href="#">Asset Ranking</a>
+      <a href="#">Equity Factor Ranking</a>
+      <a href="#">Technical Charts</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">News & Research</a>
+      <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+
+</ul>
